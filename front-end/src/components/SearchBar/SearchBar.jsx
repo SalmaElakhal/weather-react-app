@@ -62,8 +62,7 @@ export const SearchBar = () => {
   return (
     <>
       <Form>
-      <Switch></Switch>
-
+   
         <Form.Group className={styles.searchContainer}>
           <Autocomplete
             className={styles.searchInput}
