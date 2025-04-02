@@ -15,7 +15,7 @@ const initialState = {
     },
     isLoaded: false,
 }
-
+ 
 export const WeatherSlice = createSlice({
     name: 'weather',
     initialState,
@@ -26,7 +26,7 @@ export const WeatherSlice = createSlice({
             state.main = main
             state.name = name
             state.sys = sys
-            state.weather = weather[0]
+            state.weather = weather
             state.wind = wind
             state.isLoaded = true
         },
