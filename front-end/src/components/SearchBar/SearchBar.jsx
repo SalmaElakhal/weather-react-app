@@ -75,6 +75,7 @@ export const SearchBar = () => {
     return (
         <>
             <div
+            
                 className={styles.searchContainer}>
                 <Autocomplete className={styles.searchInput}
                               clearOnBlur={false}
